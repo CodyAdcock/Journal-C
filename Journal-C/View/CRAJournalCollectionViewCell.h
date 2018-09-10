@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CRAJournalCollectionViewCell.h
 //  Journal-C
 //
 //  Created by Cody on 9/10/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CRAJournalCollectionViewCell : UICollectionViewCell
 
 @end
-

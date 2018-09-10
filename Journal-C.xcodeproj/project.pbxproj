@@ -8,24 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		C3FEC0C221471822005B9644 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FEC0C121471822005B9644 /* AppDelegate.m */; };
-		C3FEC0C521471822005B9644 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FEC0C421471822005B9644 /* ViewController.m */; };
 		C3FEC0C821471822005B9644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FEC0C621471822005B9644 /* Main.storyboard */; };
 		C3FEC0CA21471826005B9644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FEC0C921471826005B9644 /* Assets.xcassets */; };
 		C3FEC0CD21471826005B9644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FEC0CB21471826005B9644 /* LaunchScreen.storyboard */; };
 		C3FEC0D021471826005B9644 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FEC0CF21471826005B9644 /* main.m */; };
+		C3FEC0E0214720EF005B9644 /* CRAJournalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FEC0DF214720EF005B9644 /* CRAJournalCollectionViewController.m */; };
+		C3FEC0E321472109005B9644 /* CRAJournalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FEC0E221472109005B9644 /* CRAJournalCollectionViewCell.m */; };
+		C3FEC0E621472138005B9644 /* CRAJournal.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FEC0E521472138005B9644 /* CRAJournal.m */; };
+		C3FEC0E921472173005B9644 /* CRAJournalController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FEC0E821472173005B9644 /* CRAJournalController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3FEC0BD21471822005B9644 /* Journal-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journal-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FEC0C021471822005B9644 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C3FEC0C121471822005B9644 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C3FEC0C321471822005B9644 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C3FEC0C421471822005B9644 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C3FEC0C721471822005B9644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3FEC0C921471826005B9644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3FEC0CC21471826005B9644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3FEC0CE21471826005B9644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3FEC0CF21471826005B9644 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3FEC0DE214720EF005B9644 /* CRAJournalCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAJournalCollectionViewController.h; sourceTree = "<group>"; };
+		C3FEC0DF214720EF005B9644 /* CRAJournalCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAJournalCollectionViewController.m; sourceTree = "<group>"; };
+		C3FEC0E121472109005B9644 /* CRAJournalCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAJournalCollectionViewCell.h; sourceTree = "<group>"; };
+		C3FEC0E221472109005B9644 /* CRAJournalCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAJournalCollectionViewCell.m; sourceTree = "<group>"; };
+		C3FEC0E421472138005B9644 /* CRAJournal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAJournal.h; sourceTree = "<group>"; };
+		C3FEC0E521472138005B9644 /* CRAJournal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAJournal.m; sourceTree = "<group>"; };
+		C3FEC0E721472173005B9644 /* CRAJournalController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAJournalController.h; sourceTree = "<group>"; };
+		C3FEC0E821472173005B9644 /* CRAJournalController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAJournalController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +67,63 @@
 		C3FEC0BF21471822005B9644 /* Journal-C */ = {
 			isa = PBXGroup;
 			children = (
+				C3FEC0DA2147207B005B9644 /* Model Controller */,
+				C3FEC0D921472074005B9644 /* Model */,
+				C3FEC0D82147206B005B9644 /* View Controller */,
+				C3FEC0D721472065005B9644 /* View */,
+				C3FEC0D621471D41005B9644 /* Resources */,
+			);
+			path = "Journal-C";
+			sourceTree = "<group>";
+		};
+		C3FEC0D621471D41005B9644 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				C3FEC0C021471822005B9644 /* AppDelegate.h */,
 				C3FEC0C121471822005B9644 /* AppDelegate.m */,
-				C3FEC0C321471822005B9644 /* ViewController.h */,
-				C3FEC0C421471822005B9644 /* ViewController.m */,
 				C3FEC0C621471822005B9644 /* Main.storyboard */,
 				C3FEC0C921471826005B9644 /* Assets.xcassets */,
 				C3FEC0CB21471826005B9644 /* LaunchScreen.storyboard */,
 				C3FEC0CE21471826005B9644 /* Info.plist */,
 				C3FEC0CF21471826005B9644 /* main.m */,
 			);
-			path = "Journal-C";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C3FEC0D721472065005B9644 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3FEC0E121472109005B9644 /* CRAJournalCollectionViewCell.h */,
+				C3FEC0E221472109005B9644 /* CRAJournalCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3FEC0D82147206B005B9644 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C3FEC0DE214720EF005B9644 /* CRAJournalCollectionViewController.h */,
+				C3FEC0DF214720EF005B9644 /* CRAJournalCollectionViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		C3FEC0D921472074005B9644 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3FEC0E421472138005B9644 /* CRAJournal.h */,
+				C3FEC0E521472138005B9644 /* CRAJournal.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3FEC0DA2147207B005B9644 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C3FEC0E721472173005B9644 /* CRAJournalController.h */,
+				C3FEC0E821472173005B9644 /* CRAJournalController.m */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3FEC0C521471822005B9644 /* ViewController.m in Sources */,
 				C3FEC0D021471826005B9644 /* main.m in Sources */,
+				C3FEC0E321472109005B9644 /* CRAJournalCollectionViewCell.m in Sources */,
+				C3FEC0E621472138005B9644 /* CRAJournal.m in Sources */,
 				C3FEC0C221471822005B9644 /* AppDelegate.m in Sources */,
+				C3FEC0E921472173005B9644 /* CRAJournalController.m in Sources */,
+				C3FEC0E0214720EF005B9644 /* CRAJournalCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
